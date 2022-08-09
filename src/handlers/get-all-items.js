@@ -29,7 +29,7 @@ exports.getAllItemsHandler = async (event) => {
     const response = {
         statusCode: 200,
         body: JSON.stringify(items),
-        res:"usuarios"
+        res:"users"
     };
 
     // All log statements are written to CloudWatch
